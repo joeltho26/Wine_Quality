@@ -19,7 +19,7 @@ Install requirements
 
 Create template files:
     template.py file
-        * data folder
+      * data folder
             - processed
                 - test_WineQT.csv file
                 - train_WineQT.csv file
