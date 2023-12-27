@@ -30,3 +30,11 @@ dvc init
 dvc add data_given/WineQT.csv
 
 git add . && git commit -m "first commit"
+
+create new repository in github for winequality
+
+git remote add origin https://github.com/joeltho26/Wine_Quality.git
+
+git branch -M main
+
+git push -u origin main
