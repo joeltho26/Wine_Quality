@@ -1,15 +1,15 @@
-#local package install
+# local package install
 -e .
 
-#third party packages
+# third party packages
 dvc
 dvc[gdrive]
 scikit-learn
 pandas
-pyyaml
 pytest
 tox
 flake8
-gunicorn
 flask
+gunicorn
+PyYAML
 importlib-metadata==4.13.0
