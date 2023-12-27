@@ -3,8 +3,8 @@ import yaml
 import pandas as pd
 import argparse
 
-def read_params(config):
-    with open(config,"r") as yaml_file:
+def read_params(config_path):
+    with open(config_path,"r") as yaml_file:
         config = yaml.safe_load(yaml_file)
     return config
 
