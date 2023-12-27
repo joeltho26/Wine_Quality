@@ -9,3 +9,6 @@ pandas
 pyyaml
 pytest
 tox
+flake8
+gunicorn
+flask

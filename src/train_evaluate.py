@@ -24,8 +24,8 @@ def train_evaluate(config_path):
     scores = config["reports"]["scores"]
     params = config["reports"]["params"]
 
-    train = pd.read_csv(train_data_path, sep=",", )
-    test = pd.read_csv(test_data_path, sep=",", )
+    train = pd.read_csv(train_data_path, sep="," )
+    test = pd.read_csv(test_data_path, sep=",")
 
     train_y = train[target]
     test_y = test[target]
