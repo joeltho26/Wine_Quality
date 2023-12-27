@@ -18,13 +18,13 @@ Install requirements
 ```
 
 Create template files:
-    template.py file
+* template.py file
       * data folder
-            - processed
-                - test_WineQT.csv file
-                - train_WineQT.csv file
-            - raw
-                - WineQT.csv file
+        - processed
+            - test_WineQT.csv file
+            - train_WineQT.csv file
+        - raw
+            - WineQT.csv file
         - notebooks folder
         - report folder
             - scores.json file
@@ -34,7 +34,7 @@ Create template files:
             - load_data.py file
             - spit_data.py file
             - train_evaluate.py file
-            __init__.py file
+            - __init__.py file
         - test folder
             - __init__.py file
             - conftest.py file
