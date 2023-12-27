@@ -46,7 +46,7 @@ def index():
                 return render_template("index.html", response=response)
             elif request.json:
                 response = api_response(request)
-                return jsonfiy(response)
+                return jsonify(response)
         except Exception as e:
             print(e)
             error = {"error": "Something went wrong! Try Again!"}
