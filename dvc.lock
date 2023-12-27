@@ -16,3 +16,19 @@ stages:
     - path: data/raw/WineQT.csv
       md5: bcd581f8fa4b2608dc4be2ff513de75e
       size: 66889
+  split_data:
+    cmd: python src/split_data.py --config=params.yaml
+    deps:
+    - path: data/raw/WineQT.csv
+      md5: bcd581f8fa4b2608dc4be2ff513de75e
+      size: 66889
+    - path: src/split_data.py
+      md5: 12a3031b78094176d2357c341133a8ac
+      size: 969
+    outs:
+    - path: data/processed/test_WineQT.csv
+      md5: 24fe9128e23d56cb45a1b5e4bbbb48d2
+      size: 14509
+    - path: data/processed/train_WineQT.csv
+      md5: f3066482c95afc28d27ef3109959a4fe
+      size: 57133
