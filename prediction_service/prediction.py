@@ -62,7 +62,7 @@ def api_response(request_dict):
         response = {"the_expected_range": read_schema(), "response": str(e)}
         return response
     except NotInCols as e:
-        response = {"the_exected_cols": get_schema().keys(), "response": str(e) }
+        response = {"the_exected_cols": read_schema().keys(), "response": str(e) }
         return response
     except Exception as e:
         response = {"response": str(e) }
