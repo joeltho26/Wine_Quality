@@ -25,24 +25,24 @@ Create template files:
             - train_WineQT.csv file
         - raw
             - WineQT.csv file
-        - notebooks folder
-        - report folder
-            - scores.json file
-            - params.json file
-        - src folder
-            - get_data.py file
-            - load_data.py file
-            - spit_data.py file
-            - train_evaluate.py file
-            - __init__.py file
-        - test folder
-            - __init__.py file
-            - conftest.py file
-            - test_config.py file
-        - data given folder
-            - WineQT.csv file
-        - save models folder
-            - model.joblib file
+      * notebooks folder
+      * report folder
+        - scores.json file
+        - params.json file
+      * src folder
+        - get_data.py file
+        - load_data.py file
+        - spit_data.py file
+        - train_evaluate.py file
+        - __init__.py file
+      * test folder
+        - __init__.py file
+        - conftest.py file
+        - test_config.py file
+      * data given folder
+        - WineQT.csv file
+      * save models folder
+        - model.joblib file
 
 create params.yaml & dvc.yaml files
 
