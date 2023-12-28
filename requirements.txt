@@ -13,3 +13,4 @@ flask
 gunicorn
 PyYAML
 importlib-metadata==4.13.0
+mlflow
